@@ -11,7 +11,7 @@
       "pragmaFrag": "Fragment"
     }],
     ["reshadow/babel", {
-      "postcss": true
+      "postcss": false
     }]
   ]
 }

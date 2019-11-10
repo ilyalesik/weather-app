@@ -1,3 +1,4 @@
 {
-    "plugins": ["reshadow/postcss"]
+     modules: true,
+     plugins: [require('reshadow/postcss')]
 }
