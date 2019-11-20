@@ -1,9 +1,10 @@
 import {h} from 'preact';
-import * as s from "./citiesGrid.css"
+import styled from 'reshadow';
+import styles from './citiesGrid.css';
 
 export const CitiesGrid = (props) => {
     const {children} = props;
-    return <div className={s.container}>
+    return styled(styles)(<container>
         {children}
-    </div>
+    </container>)
 }

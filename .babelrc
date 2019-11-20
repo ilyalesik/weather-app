@@ -9,6 +9,9 @@
     ["@babel/plugin-transform-react-jsx", {
       "pragma": "h",
       "pragmaFrag": "Fragment"
+    }],
+    ["reshadow/babel", {
+      "postcss": false
     }]
   ]
 }

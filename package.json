@@ -4,7 +4,7 @@
   "description": "Awesome Weather app",
   "main": "index.js",
   "scripts": {
-    "start": "OPEN_WEATHER_APP_ID=f0497e9d24840ae2f67bb3b20aa4b015 parcel ./src/index.html",
+    "start": "OPEN_WEATHER_APP_ID=f0497e9d24840ae2f67bb3b20aa4b015 parcel ./src/index.html --no-cache",
     "build": "parcel build ./src/index.html --out-dir public"
   },
   "author": "Ilya Lesik <ilialesik@gmail.com>",
@@ -14,7 +14,7 @@
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.3",
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.7.1",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^1.4.1"
   },
@@ -22,6 +22,7 @@
     "@storeon/localstorage": "^0.6.2",
     "classcat": "^4.0.2",
     "preact": "^10.0.4",
+    "reshadow": "0.0.1-alpha.72",
     "storeon": "^0.9.5"
   }
 }
