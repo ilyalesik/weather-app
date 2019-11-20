@@ -807,17 +807,17 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@reshadow/babel@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/babel/-/babel-0.0.1-alpha.70.tgz#752204917a2f4c61a7c84967b9578fecc1fdf5ea"
-  integrity sha512-8T6jORPUJCl80oxznYcVV2qOp0uc5HNt3P3E8GlnckKAuwVq3GWlMS70cHV8tmeFECDTIHBNi601pkfF7AcABA==
+"@reshadow/babel@^0.0.1-alpha.72":
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/@reshadow/babel/-/babel-0.0.1-alpha.72.tgz#c95eaf2833ea0d9e4e0157681086e43fb30194bc"
+  integrity sha512-pqHxkPDfd1HB4ACSWy8Pqi3xeywSFo2gj0arQ9Xdy43zmfPM+X1Pkyy5OCHgdCme3pchwxziTT8zKNSpIiZslw==
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
     "@babel/template" "^7.2.2"
     "@babel/types" "^7.5.5"
-    "@reshadow/core" "0.0.1-alpha.70"
-    "@reshadow/postcss" "0.0.1-alpha.70"
+    "@reshadow/core" "^0.0.1-alpha.71"
+    "@reshadow/postcss" "^0.0.1-alpha.72"
     "@reshadow/utils" "0.0.1-alpha.70"
     common-tags "1.8.0"
     css-modules-loader-core "^1.1.0"
@@ -838,10 +838,10 @@
   optionalDependencies:
     "@vue/babel-plugin-transform-vue-jsx" "^1.0.0-beta.2"
 
-"@reshadow/core@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/core/-/core-0.0.1-alpha.70.tgz#a15a6e9fe0b01938fe87b97d28af07965478d3d8"
-  integrity sha512-mVty8z43TsJfNugj916e2lOfHxkfD1ZByVgFflOo4n5Xk5uFnwsFoWpZKCFh0tBCT2/ImJMdxXQEqMNF74qlcw==
+"@reshadow/core@^0.0.1-alpha.71":
+  version "0.0.1-alpha.71"
+  resolved "https://registry.yarnpkg.com/@reshadow/core/-/core-0.0.1-alpha.71.tgz#6aed07f9c0151b3d005bd23baecddfae341994db"
+  integrity sha512-gjmlVqAKTIEqhzvPOYPI+NQtsmuhFhRSbsO8SsekPLRJStCZDAS41kBzZp/0yiJZet+OESD8IfPI8MyQoZVhMQ==
 
 "@reshadow/eslint@0.0.1-alpha.70":
   version "0.0.1-alpha.70"
@@ -851,19 +851,19 @@
     "@babel/types" "^7.5.5"
     "@reshadow/utils" "0.0.1-alpha.70"
 
-"@reshadow/macro@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/macro/-/macro-0.0.1-alpha.70.tgz#cb449bba4b7293b3bc118599b5ebea7f7165b37b"
-  integrity sha512-pk6M6GG7QCLBs33fQSIA6tGWKXHSwg440j9fdYWMvlc/4BPl0jOeCVXeWPFRxY4jL9vl3lZFDhPVow8MXacu4g==
+"@reshadow/macro@^0.0.1-alpha.72":
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/@reshadow/macro/-/macro-0.0.1-alpha.72.tgz#d4ba17c94cb5d4128d336bda573fd4c3eeb2a61a"
+  integrity sha512-K1x+vZzhN1jRjAyxgO8IOT9nKdShXJZBB1lUemoH8UdVNDyuQ0ya1OOQi6dSBpyNIhwXeBuFSioMd3IA7m7Y+Q==
   dependencies:
-    "@reshadow/babel" "0.0.1-alpha.70"
-    "@reshadow/core" "0.0.1-alpha.70"
+    "@reshadow/babel" "^0.0.1-alpha.72"
+    "@reshadow/core" "^0.0.1-alpha.71"
     babel-plugin-macros "2.5.1"
 
-"@reshadow/postcss@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/postcss/-/postcss-0.0.1-alpha.70.tgz#7d68508e2cb0184bb6fd0e675705a6fca12bd0f0"
-  integrity sha512-0QBDM1BcS+Ss7kO04kjtjlgX/96KJVVvuLbO5k5oSHAzJ1s0pMWyfcQ+7Vw9490xRaZOJm7IdJhtvjN3SVTcdg==
+"@reshadow/postcss@^0.0.1-alpha.72":
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/@reshadow/postcss/-/postcss-0.0.1-alpha.72.tgz#b1994cc8f4dcf5f1291a336be8b7aafd5b4983bc"
+  integrity sha512-qLViy0rMF7nJv2PdnRT9NmNlBwAAjpSkGOQEl6iED4SyHj7zeifyLuCYwl4XYSMZSU50lFY1cL1l8WGP29zydA==
   dependencies:
     postcss "7.0.17"
     postcss-selector-parser "6.0.2"
@@ -875,38 +875,38 @@
   dependencies:
     prettier "1.18.2"
 
-"@reshadow/react@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/react/-/react-0.0.1-alpha.70.tgz#4e727c6488017cdc933182b0126c1567b49df57a"
-  integrity sha512-a7kYZ9FIuJy0vfaMYwJEFVsZMrQdRYYbIt1c7EdeznxGUy3bc4cqbswwm1ZZv0tFfHQE1E42hNtw67YTSPHN7A==
+"@reshadow/react@^0.0.1-alpha.71":
+  version "0.0.1-alpha.71"
+  resolved "https://registry.yarnpkg.com/@reshadow/react/-/react-0.0.1-alpha.71.tgz#9c011d79b3fca25b5a6a9488c73ff4d9ded1eb4f"
+  integrity sha512-FcKDsGIqqHqyqaLoFZqg+FLodY0vBiMOV3eHdr4kaE4/6Wa294UFHj2scKNJIucCrYwIqiO47m+cQobAt9GpZw==
   dependencies:
-    "@reshadow/core" "0.0.1-alpha.70"
-    "@reshadow/runtime" "0.0.1-alpha.70"
+    "@reshadow/core" "^0.0.1-alpha.71"
+    "@reshadow/runtime" "^0.0.1-alpha.71"
     "@reshadow/utils" "0.0.1-alpha.70"
   optionalDependencies:
     react ">=15"
 
-"@reshadow/runtime@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/runtime/-/runtime-0.0.1-alpha.70.tgz#d7c4a33605b9f08d65fba5e585b4b1d6ba868efa"
-  integrity sha512-iomgx7pgvL2b7+45cmG/nlyp95oieZYTOc7HXE2bUx9513dJ6aS303BVH7BoJ3u6wNbySJ5t5tJmy2EUL3CU0g==
+"@reshadow/runtime@^0.0.1-alpha.71":
+  version "0.0.1-alpha.71"
+  resolved "https://registry.yarnpkg.com/@reshadow/runtime/-/runtime-0.0.1-alpha.71.tgz#52720e080601531478898875e852376e35bbf830"
+  integrity sha512-kntLgOWrTRcapI6vhtn+smFsR35GgBQhlLHY47IQlOPlvlLFA5aoIZ7/huKFHaA8O9kGFQO3b/t+gHQF/PCP7Q==
   dependencies:
     "@emotion/stylis" "0.8.4"
     "@emotion/unitless" "0.7.4"
-    "@reshadow/core" "0.0.1-alpha.70"
+    "@reshadow/core" "^0.0.1-alpha.71"
     string-hash "^1.1.3"
 
-"@reshadow/svelte@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/svelte/-/svelte-0.0.1-alpha.70.tgz#6cf67be2a263efdc5efb7742192f5b8d2439d3d2"
-  integrity sha512-auTxkFXRSu3sk0tIIa5eicIYPXMfyCr55IYgWjCeBP/Cm6rfxUsjxUPefzvaPy+VWgLzcc48EQ/ZeAZOncQGvQ==
+"@reshadow/svelte@^0.0.1-alpha.72":
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/@reshadow/svelte/-/svelte-0.0.1-alpha.72.tgz#2c8e7e886a2e393ad38f6d3bad64759dce47bcb5"
+  integrity sha512-TTrEkuYowgihbjytsczwpgjBXMmgHvIYcfXBZVgSl8qYHH372OI/5olBU7FB08ps7EW6DPlApo1CGTguhFI1bA==
   dependencies:
     "@babel/generator" "^7.5.5"
     "@babel/parser" "^7.5.5"
     "@babel/traverse" "^7.5.5"
     "@babel/types" "^7.5.5"
-    "@reshadow/babel" "0.0.1-alpha.70"
-    "@reshadow/core" "0.0.1-alpha.70"
+    "@reshadow/babel" "^0.0.1-alpha.72"
+    "@reshadow/core" "^0.0.1-alpha.71"
     common-tags "1.8.0"
     svelte "^3.6.7"
 
@@ -919,17 +919,17 @@
     resolve "^1.11.1"
     string-hash "^1.1.3"
 
-"@reshadow/vue@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/vue/-/vue-0.0.1-alpha.70.tgz#5b7125365e18845f90a33c222e5e35f89bdaf1b3"
-  integrity sha512-eR7L82JKwJGQFLmXnYHsfog0JewEXiysiN5Nwldz//9a7Q+4r9jy4NaN1Rcl88b4fJuPWgA+Zov8k0JdKb9YEw==
+"@reshadow/vue@^0.0.1-alpha.71":
+  version "0.0.1-alpha.71"
+  resolved "https://registry.yarnpkg.com/@reshadow/vue/-/vue-0.0.1-alpha.71.tgz#166c9a106ebe855fee337481b68880cb27f91da9"
+  integrity sha512-HAwg7CQf6M1MJOgk3YpPGiJWofClTwCe5ZnS2SrgZjwcZvZMzGDFKUl4rtr7Pp0b2hvxOuwxOG8tTKH3R5qeVA==
   dependencies:
-    "@reshadow/core" "0.0.1-alpha.70"
+    "@reshadow/core" "^0.0.1-alpha.71"
 
-"@reshadow/webpack@0.0.1-alpha.70":
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/@reshadow/webpack/-/webpack-0.0.1-alpha.70.tgz#e60daf12b0d66c6728144fc1d4704de92965c417"
-  integrity sha512-uq+Fo+ddAJiF4hHYoGumJyWXmoFgN5dICek8kcM4Xr4rxitOybG89gdQVue6TRS29klOOJlWpPadkGmQnEFWoQ==
+"@reshadow/webpack@^0.0.1-alpha.72":
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/@reshadow/webpack/-/webpack-0.0.1-alpha.72.tgz#6bdcc037cda711616cdc907353dd411481fceb79"
+  integrity sha512-p+MYienEdasKgRiKX+YYJCzXR/d+yFJVHnHiXdP2t/s002pxBfRlaAI9tWeBIQygg6lvXTajt2gWRp91qI2CMg==
   dependencies:
     "@reshadow/utils" "0.0.1-alpha.70"
     find-cache-dir "^3.0.0"
@@ -5227,21 +5227,21 @@ request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-reshadow@^0.0.1-alpha.70:
-  version "0.0.1-alpha.70"
-  resolved "https://registry.yarnpkg.com/reshadow/-/reshadow-0.0.1-alpha.70.tgz#6212f027aaefff2e9ddbb154200ebe5bac7d02d1"
-  integrity sha512-L3kp3hPuCufd9K4OrTk/yUqEd/h/P7hNp7lS8uhZP/c4AovmyoryiqIZOQSsI/8/IgNS9W0JaXPNWiv4sIc26Q==
+reshadow@0.0.1-alpha.72:
+  version "0.0.1-alpha.72"
+  resolved "https://registry.yarnpkg.com/reshadow/-/reshadow-0.0.1-alpha.72.tgz#bed3a4bba8a6b02cd0ae054c13ccbe9ea646eaf9"
+  integrity sha512-69SBcq1ot3R8urJ5XXwweIYEsgUyLz7JeeO/WpA8PV3no9FyTDORzFOVo7XE0CQWtbHBGi6McXHXi6r4JPYdLg==
   dependencies:
-    "@reshadow/babel" "0.0.1-alpha.70"
-    "@reshadow/core" "0.0.1-alpha.70"
+    "@reshadow/babel" "^0.0.1-alpha.72"
+    "@reshadow/core" "^0.0.1-alpha.71"
     "@reshadow/eslint" "0.0.1-alpha.70"
-    "@reshadow/macro" "0.0.1-alpha.70"
-    "@reshadow/postcss" "0.0.1-alpha.70"
+    "@reshadow/macro" "^0.0.1-alpha.72"
+    "@reshadow/postcss" "^0.0.1-alpha.72"
     "@reshadow/prettier" "0.0.1-alpha.70"
-    "@reshadow/react" "0.0.1-alpha.70"
-    "@reshadow/svelte" "0.0.1-alpha.70"
-    "@reshadow/vue" "0.0.1-alpha.70"
-    "@reshadow/webpack" "0.0.1-alpha.70"
+    "@reshadow/react" "^0.0.1-alpha.71"
+    "@reshadow/svelte" "^0.0.1-alpha.72"
+    "@reshadow/vue" "^0.0.1-alpha.71"
+    "@reshadow/webpack" "^0.0.1-alpha.72"
 
 resolve-from@^3.0.0:
   version "3.0.0"

@@ -22,7 +22,7 @@
     "@storeon/localstorage": "^0.6.2",
     "classcat": "^4.0.2",
     "preact": "^10.0.4",
-    "reshadow": "^0.0.1-alpha.70",
+    "reshadow": "0.0.1-alpha.72",
     "storeon": "^0.9.5"
   }
 }
