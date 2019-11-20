@@ -12,19 +12,19 @@
     color: var(--gray-500);
 }
 
-.icon {
+icon {
     width: 24px;
     height: 24px;
 }
 
-.icon--humidity {
+icon[|type='humidity'] {
     background-image: url("./humidity.svg");
 }
 
-.icon--pressure {
+icon[|type='pressure'] {
     background-image: url("./pressure.svg");
 }
 
-.icon--wind {
+icon[|type='wind'] {
     background-image: url("./wind.svg");
 }
