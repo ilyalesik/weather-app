@@ -1,36 +1,36 @@
 .display {
-    font-family: PTRootUI;
+    font-family: PTRootUI, sans-serif;
     font-size: 48px;
     line-height: 1;
 }
 
 .title {
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     font-size: 36px;
     line-height: 1;
 }
 
 .body-bold {
-    font-family: PTRootUI;
+    font-family: PTRootUI, sans-serif;
     font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
 }
 
 .subtitle {
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .body {
-    font-family: PTRootUI;
+    font-family: PTRootUI, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .caps {
-    font-family: PTRootUI;
+    font-family: PTRootUI, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.43;
@@ -38,7 +38,7 @@
 }
 
 .caption {
-    font-family: PTRootUI;
+    font-family: PTRootUI, sans-serif;
     font-size: 14px;
     line-height: 1.43;
 }

@@ -12,7 +12,7 @@
 }
 
 .text {
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     font-size: 24px;
     color: var(--gray-400);
     text-align: center;
